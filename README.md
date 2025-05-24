@@ -1,26 +1,26 @@
-# ☁️ Cloud MLOps Pipeline with AKS, Azure DevOps & MLflow
+# Cloud MLOps Pipeline with AKS, Azure DevOps & MLflow
 
 This project demonstrates a scalable and automated MLOps pipeline for deploying machine learning models using **Azure Kubernetes Service (AKS)**, **Azure DevOps**, and **MLflow** for experiment tracking.
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 - **Azure DevOps** for CI/CD pipelines
 - **Azure Kubernetes Service (AKS)** for scalable deployments
 - **MLflow** for model tracking and registry
 - **Docker + Kubernetes** for containerized deployment
 - **Python** (Scikit-learn / PyTorch)
 
-## 🚀 Key Features
+## Key Features
 - CI/CD pipeline for ML models using Azure DevOps
 - Auto-deployment to AKS clusters
 - Experiment tracking using MLflow
 - Inference endpoint with RESTful API
 - Versioned and reproducible model deployment
 
-## 📊 Architecture
+## Architecture
 
 ![Architecture](architecture/mlops_pipeline_architecture.png)
 
-## 📁 Folder Structure
+## Folder Structure
 
 | Folder | Description |
 |--------|-------------|
@@ -29,7 +29,7 @@ This project demonstrates a scalable and automated MLOps pipeline for deploying 
 | `azure_devops/` | YAML pipelines and AKS deployment templates |
 | `notebooks/` | Optional Jupyter notebooks for EDA and preprocessing |
 
-## 🧪 Example Command
+## Example Command
 
 ```bash
 python src/train_model.py --data data/train.csv --experiment cloud-mlops-demo
