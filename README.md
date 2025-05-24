@@ -35,7 +35,7 @@ This project demonstrates a scalable and automated MLOps pipeline for deploying 
 python src/train_model.py --data data/train.csv --experiment cloud-mlops-demo
 ```
 
-## 📬 Contact
+## Contact
 **Gissella Gonzalez (Gichelli)**  
-🔗 [LinkedIn](https://www.linkedin.com/in/gissellagonzalez)  
-📧 ggonza18@gmu.edu
+[LinkedIn](https://www.linkedin.com/in/gissellagonzalez)  
+ggonza18@gmu.edu
